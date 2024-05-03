@@ -1,0 +1,13 @@
+weight = input("insert number --> ")
+value_type = input("Insert kg or lbs --> ")
+value_type = value_type.upper()
+
+if value_type == "KG":
+    print(int(weight) * 2.20462, "pounds")
+
+elif value_type == "LBS":
+    print(int(weight) / 2.20462, "kilograms")
+
+else:
+    print("Please choose between kg and lbs.")
+
