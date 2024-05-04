@@ -1,0 +1,13 @@
+first_number = input("first number -> ")
+operator = input("operator -> ")
+second_number = input("second number -> ")
+if operator == "+":
+	print(int(first_number) + int(second_number))
+elif operator == "-":
+	print(int(first_number) - int(second_number))
+elif operator == "/":
+	print(int(first_number) / int(second_number))
+elif operator == "*":
+	print(int(first_number) * int(second_number))
+else:
+	print("we only support the main 4 types of operators")
