@@ -1,0 +1,2 @@
+first_number = input("first number -> ")
+operator = input
