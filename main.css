@@ -4073,7 +4073,7 @@ code {
 }
 
 :is(.theme-dark,.theme-light .theme-dark) {
-    --background-shading: rgba(0, 0, 0, 0.4);
+    --background-shading: rgba(0, 0, 0, 0.0);
     --card-shading: rgba(0, 0, 0, 0.2);
     --popout-shading: rgba(0, 0, 0, 0.6);
     --modal-shading: rgba(0, 0, 0, 0.4);
