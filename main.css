@@ -4063,7 +4063,7 @@ code {
 }
 
 :is(.theme-light,.theme-dark .theme-light) {
-    --background-shading: rgba(252, 252, 252, 0.3);
+    --background-shading: rgba(252, 252, 252, 0.0);
     --card-shading: rgba(252, 252, 252, 0.3);
     --popout-shading: rgba(252, 252, 252, 0.7);
     --modal-shading: rgba(252, 252, 252, 0.5);
@@ -4083,7 +4083,7 @@ code {
 }
 
 :is(.theme-darker,.theme-light .theme-darker) {
-    --background-shading: rgba(0, 0, 0, 0.6);
+    --background-shading: rgba(0, 0, 0, 0.0);
     --card-shading: rgba(0, 0, 0, 0.3);
     --popout-shading: rgba(0, 0, 0, 0.7);
     --modal-shading: rgba(0, 0, 0, 0.5);
@@ -4093,7 +4093,7 @@ code {
 }
 
 :is(.theme-midnight,.theme-light .theme-midnight) {
-    --background-shading: rgba(0, 0, 0, 0.8);
+    --background-shading: rgba(0, 0, 0, 0.0);
     --card-shading: rgba(0, 0, 0, 0.4);
     --popout-shading: rgba(0, 0, 0, 0.8);
     --modal-shading: rgba(0, 0, 0, 0.6);
